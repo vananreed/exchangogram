@@ -1,3 +1,7 @@
 <% @posts.each do |post| %>
-  <div class="post"> <%= post.caption %></div>
+  <div class="post">
+    <%= cl_image_tag(post.photo,
+      width: 400, height: 300, crop: :fill) %>
+    <%= post.caption %>
+  </div>
 <% end %>
