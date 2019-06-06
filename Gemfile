@@ -23,6 +23,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.8'
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'listen', '~> 3.0.5'
