@@ -1,1 +1,1 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Rails App inspired by Vince Vaughn in the movie "The Internship". As a user, you are able to upload photos and put them directly on the line. https://www.youtube.com/watch?v=jxvdsdGavq0
