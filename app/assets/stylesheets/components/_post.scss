@@ -1,0 +1,20 @@
+.post {
+  background: white;
+  border-radius:2px;
+
+  .photo-container {
+    img {
+      border-radius: 2px 2px 0 0;
+      width: 100%;
+    }
+  }
+
+  .caption {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+.posts-container {
+  margin-top: 20px;
+}
