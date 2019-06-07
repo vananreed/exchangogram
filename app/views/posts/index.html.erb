@@ -1,9 +1,12 @@
-<div class="posts-container">
-  <div class="row">
-    <% @posts.each do |post| %>
-      <div class="col-xs-12 col-sm-6 col-lg-4">
-        <%= render post %>
-      </div>
-    <% end %>
+<div class="container">
+  <div class="posts-container">
+    <div class="row">
+      <% @posts.each do |post| %>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <%= render post %>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>
+<%= render 'shared/new-post-button' %>
