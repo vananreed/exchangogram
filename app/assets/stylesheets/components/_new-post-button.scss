@@ -1,0 +1,21 @@
+.new-photo-upload {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  bottom:0;
+  position:fixed;
+  z-index:150;
+  _position:absolute;
+  _top:expression(eval(document.documentElement.scrollTop+
+      (document.documentElement.clientHeight-this.offsetHeight)));
+  i {
+    font-size: 45px;
+    color: white;
+    background-color: $red;
+    padding: 14px 20px;
+    border-radius: 5px 5px 0 0;
+    &:hover {
+      background-color: #de0f13;
+    }
+  }
+}
